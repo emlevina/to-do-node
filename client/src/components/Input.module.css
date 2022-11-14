@@ -1,0 +1,36 @@
+.form {
+    margin: 2em auto 2em auto;
+    font-family: Raleway;
+}
+
+.inputTask{
+    font-family: Raleway;
+    width: 40%;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    color: gray;
+}
+
+.inputTask:focus{
+    outline: none;
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.button{
+    margin: auto 1em auto 1em;
+    font-family: Raleway;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: green;
+    background-color: white;
+
+}
+
+.button:hover{
+    background-color: green;
+    color: white;
+}

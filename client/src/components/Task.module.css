@@ -1,0 +1,50 @@
+.task {
+    /* margin: 0 50px 15px 40px; */
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+
+.taskDone {
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    color: gray;
+}
+
+.taskUndone {
+    color: #555555;
+}
+
+:root{
+    --main-color: green;
+    --accent-color: #ffe932;
+}
+
+.button{
+    margin: auto 1em auto 1em;
+    font-family: Raleway;
+    font-size: 0.8em;
+    padding: 5px 5px;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: green;
+    background-color: white;
+    text-transform: lowercase;
+}
+
+.button:hover{
+    background-color: green;
+    color: white;
+}
+
+body {
+    font-family: Raleway;
+    font-weight: 100;
+}
+  
+h1 {
+    font-family: Raleway;
+    text-align: center;
+}
