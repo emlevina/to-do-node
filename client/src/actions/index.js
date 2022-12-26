@@ -20,7 +20,6 @@ export const deleteTask = async (id) => {
         },
     })
         .then((response) => response.json())
-        //.then((json) => console.log(json));
 }
 
 export const showTasks = async (setState) => {
@@ -43,5 +42,4 @@ export const addTask = async (input) => {
         },
     })
         .then((response) => response.json())
-        //.then((json) => console.log(json));
 };

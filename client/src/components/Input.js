@@ -29,7 +29,6 @@ const Input = (props) => {
         </form>
     )
     
-   
 }
 
 export default Input;
